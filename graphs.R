@@ -13,7 +13,7 @@ library(reshape2)
 library(ggrepel)
 
 rm(list = ls())
-setwd("~/GitHub/polls")
+#setwd("~/GitHub/polls")
 load("out.RData")
 
 logit <- function(p) log(p/(1-p))
