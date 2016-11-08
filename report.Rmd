@@ -18,7 +18,7 @@ New: [Updating the Forecast on Election Night with R](http://pkremp.github.io/up
 ---
 
 ```{r echo=FALSE, message=FALSE}
-setwd("~/GitHub/polls")
+#setwd("~/GitHub/polls")
 knitr::read_chunk('graphs.R')
 ```
 
